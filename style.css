@@ -1,0 +1,108 @@
+.menu
+{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.lien_menu
+{
+	margin-left: 20px;
+	color: white;
+}
+
+.lien_menu:hover{
+	text-decoration: underline;
+	color:black;
+}
+
+header
+{
+	background-color: red;
+	padding: 7px;
+	border-radius: 8px;
+}
+
+.h{
+	font-size: 30px;
+	margin-top: -10px;
+}
+
+.titre{
+	text-align: center;
+	font-size: 50px;
+}
+
+
+p{
+
+	width: 600px;
+	border: 1px solid black;
+	text-align: justify;
+	border-radius: 7px;
+	padding: 7px;
+	margin-left: 20px;
+}
+
+#paragraphe{
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lien{
+	margin-left: 50px;
+}
+
+.lien:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+#reseaux{
+	display: flex;
+	justify-content: space-around;
+	background-color: red;
+}
+
+i{
+	font-size: 50px
+	margin-left: 50px;
+}
+
+.btn-primary{
+	background-color: #28afd0;
+	border-color: #28afd0;
+	border-radius: 7px;
+	color: white;
+	padding: 10px;
+	align-content: center;
+}
+
+.btn-primary:hover{
+	box-shadow: 2px 5px #888888;
+}
+
+.centre{
+	display:flex;
+	justify-content: center;
+}
+
+.image{
+	margin-top: -15px;;
+}
+
+.avatar{
+	border-radius: 50%
+}
+
+.conteneur{
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+}
+
+h2{
+	margin-left: 120px;
+}
